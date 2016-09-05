@@ -2,7 +2,7 @@
 React Actions Recorder, inspired by Redux
 ----
 
-Demo http://ui.talk.ai/actions-recorder/
+Demo http://repo.react-china.org/actions-in-recorder/
 
 Tricks:
 
@@ -16,7 +16,7 @@ Tricks:
 ### Usage
 
 ```bash
-npm i --save actions-recorder
+npm i --save actions-in-recorder
 ```
 
 ```coffee
@@ -29,7 +29,7 @@ updater = (store, actionType, actionData) ->
 ```
 
 ```coffee
-recorder = require 'actions-recorder'
+recorder = require 'actions-in-recorder'
 
 recorder.setup
   initial: initialStore
@@ -71,7 +71,7 @@ Get Devtools:
 
 ```coffee
 # for component
-Devtools = require 'actions-recorder/lib/devtools'
+Devtools = require 'actions-in-recorder/lib/devtools'
 ```
 
 `Devtools` is a component to show actions:

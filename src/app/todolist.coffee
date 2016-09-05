@@ -6,7 +6,7 @@ classnames = require("classnames")
 actions = require("../actions")
 
 {div, a, input} = React.DOM
-repo = 'https://github.com/teambition/actions-recorder'
+repo = 'https://github.com/react-china/actions-in-recorder'
 
 module.exports = React.createClass
   displayName: "app-todolist"
@@ -36,7 +36,7 @@ module.exports = React.createClass
 
   renderNote: ->
     div className: 'note',
-      a href: repo, "Demo of actions-recorder, find more on GitHub."
+      a href: repo, "Demo of actions-in-recorder, find more on GitHub."
 
   render: render = ->
     div className: "app-todolist",

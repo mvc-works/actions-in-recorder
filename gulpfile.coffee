@@ -17,7 +17,7 @@ gulp.task 'rsync', (cb) ->
     ]
     recursive: true
     args: [ '--verbose' ]
-    dest: 'talk-ui:/teambition/server/talk-ui/actions-recorder'
+    dest: 'react-china.org:/home/chen/repo/react-china/actions-in-recorder'
     deleteAll: true
   }, (error, stdout, stderr, cmd) ->
     if error != null

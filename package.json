@@ -1,6 +1,6 @@
 {
-  "name": "actions-recorder",
-  "version": "1.6.4-alpha1",
+  "name": "actions-in-recorder",
+  "version": "1.7.0",
   "description": "React Actions Recorder(like Redux)",
   "main": "lib/recorder.js",
   "scripts": {
@@ -44,10 +44,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/teambition/actions-recorder.git"
+    "url": "https://github.com/react-china/actions-in-recorder.git"
   },
   "bugs": {
-    "url": "https://github.com/teambition/actions-recorder/issues"
+    "url": "https://github.com/react-china/actions-in-recorder/issues"
   },
-  "homepage": "https://github.com/teambition/actions-recorder"
+  "homepage": "https://github.com/react-china/actions-in-recorder"
 }
